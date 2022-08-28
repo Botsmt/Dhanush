@@ -11,10 +11,6 @@ import asyncio
 
 
 
-class Config:
-
-
-
 ADMINS = [int(i) for i in os.environ.get("ADMIN", "1924628868 1481072635 1763070014 1481072635 1635614138 2107036689").split(" ")]
 API_HASH = 72cbda887655ac7a5df871c87d8230cd
 API_ID = 18402373
